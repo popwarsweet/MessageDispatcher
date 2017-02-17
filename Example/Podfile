@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MessageDispatcher_Tests' do
+  pod 'MessageDispatcher', :path => '../'
+  
+  
+end
