@@ -15,6 +15,7 @@ let messageDispatcher = MessageDispatcher<String>()
 messageDispatcher.addEventListener(someListener, queue: nil) { message in
     print("Received \(message)")
 }
+messageDispatcher.alertListeners("Hello, world.")
 ```
 
 ## Installation
