@@ -1,0 +1,16 @@
+PODS:
+  - MessageDispatcher (0.1.0)
+
+DEPENDENCIES:
+  - MessageDispatcher (from `../`)
+
+EXTERNAL SOURCES:
+  MessageDispatcher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MessageDispatcher: 8634dea92c903729e8aa23dc1f2c1ec0e3e188ca
+
+PODFILE CHECKSUM: 4bf01e8ea631d252a319bac9dbe03c98d1d5ce26
+
+COCOAPODS: 1.2.0

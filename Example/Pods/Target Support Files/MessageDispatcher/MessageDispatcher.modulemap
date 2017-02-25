@@ -1,0 +1,6 @@
+framework module MessageDispatcher {
+  umbrella header "MessageDispatcher-umbrella.h"
+
+  export *
+  module * { export * }
+}
