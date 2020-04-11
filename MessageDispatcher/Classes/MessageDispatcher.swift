@@ -28,6 +28,10 @@ final public class WeakWrapper<T: AnyObject>: Hashable {
     public var hashValue: Int {
         return ObjectIdentifier(self).hashValue
     }
+  
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(ObjectIdentifier(self))
+    }
     
     public static func ==(lhs: WeakWrapper<T>, rhs: WeakWrapper<T>) -> Bool {
         return lhs.hashValue == rhs.hashValue

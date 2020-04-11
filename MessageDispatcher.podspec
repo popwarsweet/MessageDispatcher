@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MessageDispatcher'
-  s.version          = '0.1.2'
+  s.version          = '0.2.0'
   s.summary          = 'A simple class for sending messages of a generic type to weakly held listeners.'
   s.description      = <<-DESC
 A simple class for sending messages of a generic type to multiple listeners. Listeners are weakly held and the message dispatcher auto-resizes its table of listeners on message send, or when `resize` is manually called.
